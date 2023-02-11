@@ -1,6 +1,6 @@
 import { createSlice } from "@reduxjs/toolkit";
 
-import { loadRecipes, loadRecipe } from "../actions/recipes"
+import { loadRecipes, loadRecipe, addRecipe } from "../actions/recipes"
 
 const recipeSlice = createSlice({
   name: "recipe",

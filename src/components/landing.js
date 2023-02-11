@@ -15,7 +15,7 @@ function LandingPage({ items, loggedIn }) {
 
   return (
     <Container className="mt-2 p-4">
-      <Card className="p-4">
+      {/* <Card className="p-4 row"> */}
         <h2 className="mb-4">Recipes</h2>
         {Object.keys(items).map((key) =>
           <RecipeCard key={key} data={items[key]} />
@@ -28,7 +28,7 @@ function LandingPage({ items, loggedIn }) {
             </Button>
           </div>
         }
-      </Card>
+      {/* </Card> */}
     </Container>
   );
 }

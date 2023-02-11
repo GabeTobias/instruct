@@ -17,7 +17,7 @@ function RecipeCard({ data }){
   } 
 
   return(
-    <Card style={{ width: '18rem' }}>
+    <Card style={{ width: '18rem', float: 'left' }} className="me-4">
       <Card.Body>
         <Card.Img variant="top" src={data.Media[0]} className="mb-4" />
         <Card.Title>{data.Name}</Card.Title>
